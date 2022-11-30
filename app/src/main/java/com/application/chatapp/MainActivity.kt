@@ -11,6 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.application.chatapp.presentation.login.screens.LoginScreen
+import com.application.chatapp.presentation.profile.screens.ProfileScreen
 import com.application.chatapp.presentation.ui.theme.ChatAppTheme
 
 class MainActivity : ComponentActivity() {
@@ -23,7 +24,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    LoginScreen()
+                    ProfileScreen()
                 }
             }
         }
@@ -39,6 +40,6 @@ fun Greeting(name: String) {
 @Composable
 fun DefaultPreview() {
     ChatAppTheme {
-        LoginScreen()
+        ProfileScreen()
     }
 }

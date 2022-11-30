@@ -45,7 +45,7 @@ fun LoginCompose() {
                 painter = painterResource(id = R.drawable.login),
                 contentDescription = "login image"
             )
-            Spacer(modifier = Modifier.width(30.dp))
+            Spacer(modifier = Modifier.height(30.dp))
             Button(
                 onClick = { /*TODO*/ },
                 shape = RoundedCornerShape(10.dp),
